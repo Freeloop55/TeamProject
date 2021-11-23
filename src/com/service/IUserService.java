@@ -5,7 +5,8 @@ import java.util.List;
 import com.bean.User;
 
 public interface IUserService {
-	
+
+
 	public List<User> findAllUser() throws Exception;
 	
 	public User findUserByNo(Integer no) throws Exception;

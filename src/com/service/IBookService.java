@@ -5,7 +5,8 @@ import java.util.List;
 import com.bean.Book;
 
 public interface IBookService {
-	
+
+
 	public List<Book> findAllBook(Integer startIndex,Integer length) throws Exception;
 	
 	public List<Book> findCanReserveBook() throws Exception;

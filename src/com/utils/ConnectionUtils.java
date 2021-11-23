@@ -7,6 +7,7 @@ import com.config.DatabaseConnection;
 public class ConnectionUtils 
 {
 
+
 	private ThreadLocal<Connection> threadLocal = new ThreadLocal<Connection>();
 	
 	public Connection getThreadConnection() 
