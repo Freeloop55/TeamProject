@@ -70,7 +70,6 @@
                 <li><a href="/bookmanagement/book/findAllBook?admin=false&startIndex=36">5</a></li>
         	</ul>
     	</div>
-    	
     </div>
 </body>
 </html>

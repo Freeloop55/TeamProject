@@ -26,7 +26,6 @@ public class BookController extends HttpServlet {
 
 		request.setCharacterEncoding("UTF-8");
 
-		
 		if(methodName.equals("findAllBook")) {
 					
 			try {

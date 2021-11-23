@@ -60,7 +60,6 @@ public class AdminOperationDaoImpl implements IAdminOperationDao {
 		return books;
 	}
 
-
 	public List<BorrowReturnLog> findAllStudentFineInfo() throws Exception {
 		
 		
