@@ -18,7 +18,6 @@ public class BookController extends HttpServlet {
 	private IBookService bookService = (IBookService) BeanFactory.getBean("bookService");
 	private IBookshelfService bookshelfService = (IBookshelfService) BeanFactory.getBean("bookshelfService");
 
-
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		String url = request.getRequestURI();

@@ -19,7 +19,6 @@ public class AdminOperationController extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-		
 		String url = request.getRequestURI();
 		String methodName = url.substring(url.lastIndexOf("/")+1);
 
