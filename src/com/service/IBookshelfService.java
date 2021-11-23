@@ -6,7 +6,6 @@ import com.bean.Bookshelf;
 
 public interface IBookshelfService {
 
-
 	public List<Bookshelf> findAllBookshelf() throws Exception;
 	
 	public Bookshelf findBookshelfByNo(String no) throws Exception;

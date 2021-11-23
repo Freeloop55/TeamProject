@@ -6,7 +6,6 @@ import com.bean.Department;
 
 public interface IDepartmentService {
 
-
 	public List<Department> findAllDepartment() throws Exception;
 	
 	public Department findDepartmentByNo(String no) throws Exception;

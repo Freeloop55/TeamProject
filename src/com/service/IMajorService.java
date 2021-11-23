@@ -6,7 +6,6 @@ import com.bean.Major;
 
 public interface IMajorService {
 
-
 	public List<Major> findAllMajor() throws Exception;
 	
 	public Major findMajorByNo(String no) throws Exception;

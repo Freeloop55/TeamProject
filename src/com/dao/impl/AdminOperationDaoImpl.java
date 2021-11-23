@@ -55,6 +55,7 @@ public class AdminOperationDaoImpl implements IAdminOperationDao {
 			
 		}
 
+
 		DatabaseConnection.release(ps, r);
 		
 		return books;
