@@ -12,8 +12,7 @@ import com.dao.IBookDao;
 
 public class BookDaoImpl implements IBookDao {
 	
-	
-	
+
 	public List<Book> findAllBook(Integer startIndex,Integer length) throws Exception {
 		
 		String sql = "select * from book limit ?,?";

@@ -51,7 +51,6 @@ public class UserController extends HttpServlet {
 		}
 	}
 
-
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 		String url = request.getRequestURI();

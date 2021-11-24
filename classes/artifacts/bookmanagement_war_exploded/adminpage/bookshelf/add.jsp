@@ -50,9 +50,7 @@
 	                </div>
 	 
 	            </form>
-	            
 
-            
         </div>
         
     </div>

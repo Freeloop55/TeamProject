@@ -21,7 +21,6 @@ public class StudentController extends HttpServlet {
 	private IMajorService majorService = (IMajorService) BeanFactory.getBean("majorService");
        
 
-
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		String url = request.getRequestURI();

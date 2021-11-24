@@ -12,7 +12,6 @@ import com.dao.IBookshelfDao;
 
 public class BookshelfDaoImpl implements IBookshelfDao {
 
-
 	public List<Bookshelf> findAllBookshelf() throws Exception {
 		
 		String sql = "select * from bookshelf";
