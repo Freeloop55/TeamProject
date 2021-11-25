@@ -62,7 +62,6 @@
         body {
             width: 100%;
             height: 100%;
-            background: url(/static/img/1.jpg) no-repeat center top;
             background-size: 100%;
             font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
             color: #666
