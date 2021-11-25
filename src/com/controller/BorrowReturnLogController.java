@@ -23,7 +23,6 @@ public class BorrowReturnLogController extends HttpServlet {
 	private IUserService userService = (IUserService) BeanFactory.getBean("userService");
   
 
-
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		String url = request.getRequestURI();

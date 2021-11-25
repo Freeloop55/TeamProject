@@ -38,7 +38,6 @@
                 
                 <tbody>
 
-                
                 	 <c:forEach items="${allReserveBook}" var="book">
        					 <tr>
 				            <td>${book.bookNo}</td>

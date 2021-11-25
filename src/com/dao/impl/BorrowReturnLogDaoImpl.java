@@ -17,8 +17,7 @@ import com.dao.IBorrowReturnLogDao;
 
 public class BorrowReturnLogDaoImpl implements IBorrowReturnLogDao {
 	
-	
-	
+
 	@SuppressWarnings("resource")
 	public void borrowBook(Integer studentNo,String bookNo) throws Exception{
 		

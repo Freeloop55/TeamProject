@@ -10,7 +10,6 @@ import com.config.DatabaseConnection;
 import com.dao.IDepartmentDao;
 
 public class DepartmentDaoImpl implements IDepartmentDao {
-	
 
 	public List<Department> findAllDepartment() throws Exception {
 

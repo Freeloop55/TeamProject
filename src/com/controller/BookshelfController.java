@@ -17,8 +17,7 @@ public class BookshelfController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private IBookshelfService bookshelfService = (IBookshelfService) BeanFactory.getBean("bookshelfService");
 
-	
-	
+
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		String url = request.getRequestURI();
