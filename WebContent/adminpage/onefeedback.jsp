@@ -30,8 +30,7 @@
 
 
         </div>
-        
-        
+
         <div class="fineright">
 			<div class="hidden"></div>
         </div>

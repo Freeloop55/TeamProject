@@ -41,7 +41,6 @@ public class StudentDaoImpl implements IStudentDao {
 		return students;
 	}
 
-
 	public Student findStudentByNo(Integer no) throws Exception {
 
 		String sql = "select * from student where Sno = ?";

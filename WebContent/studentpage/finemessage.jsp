@@ -44,7 +44,6 @@
         
         <div class="fineright">
 
-
         </div>
         
         <div class="ok">点击刷新页面<a class="btn" href="/bookmanagement/log/payForFine">刷新</a></div>
