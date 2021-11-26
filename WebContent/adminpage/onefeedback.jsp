@@ -28,7 +28,6 @@
 			</div>
 			<div class="operation" style="margin-left: 0">${sender}</div>
 
-
         </div>
 
         <div class="fineright">

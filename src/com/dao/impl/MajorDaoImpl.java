@@ -39,6 +39,7 @@ public class MajorDaoImpl implements IMajorDao {
 
 	}
 
+	
 	public Major findMajorByNo(String no) throws Exception {
 
 

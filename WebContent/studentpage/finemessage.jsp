@@ -40,8 +40,7 @@
 			<a class="btn-report" href="#">举报</a>
 		
         </div>
-        
-        
+
         <div class="fineright">
 
         </div>
