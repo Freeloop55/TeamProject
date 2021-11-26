@@ -21,8 +21,7 @@
     <div class="main">
     
    		<%@ include file="/common-bars/studentsidebar.jsp" %>
-   	
-   	
+
         <div class="fineright">
 			<div class="message">
 				${message} 
