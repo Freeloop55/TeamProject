@@ -21,7 +21,6 @@
     
    		<%@ include file="/common-bars/adminsidebar.jsp" %>
 
-
    	
         <div class="fineright">
 			<div class="message">

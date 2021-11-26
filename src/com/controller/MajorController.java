@@ -20,7 +20,6 @@ public class MajorController extends HttpServlet {
 	private IMajorService majorService = (IMajorService) BeanFactory.getBean("majorService");
 	private IDepartmentService departmentService = (IDepartmentService) BeanFactory.getBean("departmentService");
 
-
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		String url = request.getRequestURI();
