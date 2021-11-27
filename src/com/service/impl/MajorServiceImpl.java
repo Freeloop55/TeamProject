@@ -11,6 +11,7 @@ public class MajorServiceImpl implements IMajorService {
 	
 	private IMajorDao majorDao =  (IMajorDao) BeanFactory.getBean("majorDao");
 
+
 	public List<Major> findAllMajor() throws Exception {return majorDao.findAllMajor();}
 
 	public Major findMajorByNo(String no) throws Exception {return majorDao.findMajorByNo(no);}

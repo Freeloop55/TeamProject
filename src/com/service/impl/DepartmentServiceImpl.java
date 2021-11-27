@@ -11,7 +11,6 @@ public class DepartmentServiceImpl implements IDepartmentService {
 
 	private IDepartmentDao departmentDao =  (IDepartmentDao) BeanFactory.getBean("departmentDao");
 
-
 	public List<Department> findAllDepartment() throws Exception {return departmentDao.findAllDepartment();}
 
 	public Department findDepartmentByNo(String no) throws Exception {return departmentDao.findDepartmentByNo(no);}

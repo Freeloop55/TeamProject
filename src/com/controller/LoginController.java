@@ -25,6 +25,7 @@ public class LoginController extends HttpServlet {
 	private IUserService userService = (IUserService) BeanFactory.getBean("userService");
 	private IStudentService studentService = (IStudentService) BeanFactory.getBean("studentService");
 
+
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		String url = request.getRequestURI();
