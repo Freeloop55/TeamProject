@@ -10,7 +10,6 @@ public class UserServiceImpl implements IUserService{
 
 	private IUserDao userDao =  (IUserDao) BeanFactory.getBean("userDao");
 
-	
 	public List<User> findAllUser() throws Exception {return userDao.findAllUser();}
 
 	public User findUserByNo(Integer no) throws Exception {return userDao.findUserByNo(no);}

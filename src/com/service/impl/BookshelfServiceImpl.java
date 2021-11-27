@@ -11,8 +11,7 @@ public class BookshelfServiceImpl implements IBookshelfService {
 
 	private IBookshelfDao bookshelfDao =  (IBookshelfDao) BeanFactory.getBean("bookshelfDao");
 
-	
-	
+
 	public List<Bookshelf> findAllBookshelf() throws Exception {return bookshelfDao.findAllBookshelf();}
 
 	public Bookshelf findBookshelfByNo(String no) throws Exception{ return bookshelfDao.findBookshelfByNo(no);}

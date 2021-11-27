@@ -11,7 +11,6 @@ import com.dao.IUserDao;
 
 public class UserDaoImpl implements IUserDao {
 
-	
 	public List<User> findAllUser() throws Exception {
 
 		String sql = "select * from user";

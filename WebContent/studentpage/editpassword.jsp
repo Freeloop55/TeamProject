@@ -32,7 +32,6 @@
 	                </div>
 					 <c:if test="${success != null}"><div class="tip">修改成功!</div></c:if>
 	            </form>
-        
     	</div>
     	
      </div>

@@ -10,7 +10,6 @@ public class BookServiceImpl implements IBookService {
 
 	private IBookDao bookDao = (IBookDao) BeanFactory.getBean("bookDao");
 
-
 	public List<Book> findAllBook(Integer startIndex,Integer length) throws Exception {return bookDao.findAllBook(startIndex,length);}
 	
 	public List<Book> findCanReserveBook() throws Exception {return bookDao.findCanReserveBook();}
